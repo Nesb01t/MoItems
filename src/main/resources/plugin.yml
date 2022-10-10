@@ -1,0 +1,16 @@
+name: MoItems
+version: '${project.version}'
+main: co.nesb01t.moitems.MoItems
+api-version: 1.19
+authors: [ Nesb01t ]
+description: MonetWorld 物品管理
+
+commands:
+  moitems:
+    description: MonetWorld 物品管理
+    aliases: [ mi ]
+    permission: MoItems
+    permission-message: 您尚未获取 MoItems 权限
+permissions:
+  MoItems:
+    default: op

@@ -1,0 +1,9 @@
+list: # 列表
+  - 1
+  - 2
+  - abc
+map: # 集合
+  - {name:qwq, count: 1, speed: 3.3f}
+  - {name:owo, count: 2, speed: 3.4f}
+age: 11
+disabled: false
